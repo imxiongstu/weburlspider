@@ -1,0 +1,15 @@
+F:\VS工程\WPF Project\WebUrlSpider\bin\Debug\WebUrlSpider.exe.config
+F:\VS工程\WPF Project\WebUrlSpider\bin\Debug\WebUrlSpider.exe
+F:\VS工程\WPF Project\WebUrlSpider\bin\Debug\WebUrlSpider.pdb
+F:\VS工程\WPF Project\WebUrlSpider\obj\Debug\MainWindow.g.cs
+F:\VS工程\WPF Project\WebUrlSpider\obj\Debug\App.g.cs
+F:\VS工程\WPF Project\WebUrlSpider\obj\Debug\WebUrlSpider_MarkupCompile.cache
+F:\VS工程\WPF Project\WebUrlSpider\obj\Debug\WebUrlSpider_MarkupCompile.lref
+F:\VS工程\WPF Project\WebUrlSpider\obj\Debug\MainWindow.baml
+F:\VS工程\WPF Project\WebUrlSpider\obj\Debug\WebUrlSpider.g.resources
+F:\VS工程\WPF Project\WebUrlSpider\obj\Debug\WebUrlSpider.Properties.Resources.resources
+F:\VS工程\WPF Project\WebUrlSpider\obj\Debug\WebUrlSpider.csproj.GenerateResource.cache
+F:\VS工程\WPF Project\WebUrlSpider\obj\Debug\WebUrlSpider.csproj.CoreCompileInputs.cache
+F:\VS工程\WPF Project\WebUrlSpider\obj\Debug\WebUrlSpider.exe
+F:\VS工程\WPF Project\WebUrlSpider\obj\Debug\WebUrlSpider.pdb
+F:\VS工程\WPF Project\WebUrlSpider\obj\Debug\WebUrlSpider.csprojAssemblyReference.cache

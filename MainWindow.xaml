@@ -1,0 +1,31 @@
+﻿<Window x:Class="WebUrlSpider.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WebUrlSpider"
+        mc:Ignorable="d"
+        Title="WebUrlSpider   -   By:XiongStu" Height="450" Width="748.113">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="103*"/>
+        </Grid.ColumnDefinitions>
+        <GroupBox x:Name="groupBox" Header="配置" HorizontalAlignment="Left" Height="85" VerticalAlignment="Top" Width="721" Margin="10,10,0,0" Grid.ColumnSpan="2">
+            <Grid Height="42" Margin="10,10,9,0" VerticalAlignment="Top">
+                <Label x:Name="label" Content="URL:" HorizontalAlignment="Left" Margin="0,7,0,10"/>
+                <TextBox x:Name="url_Tb" TextWrapping="Wrap" Text="http://www.hnyzzy.com" Margin="41,7,268,12"/>
+                <Label x:Name="label_Copy" Content="Thread:" HorizontalAlignment="Left" Margin="429,7,0,10"/>
+                <TextBox x:Name="thread_Tb" TextWrapping="Wrap" Text="1" Margin="487,7,0,12" TextAlignment="Center" HorizontalAlignment="Left" Width="91"/>
+                <Button x:Name="start_Btn" Content="Start" HorizontalAlignment="Left" Margin="583,10,0,0" VerticalAlignment="Top" Width="46" Click="start_Btn_Click" />
+                <Button x:Name="stop_Btn" Content="Stop" HorizontalAlignment="Left" Margin="634,10,0,0" VerticalAlignment="Top" Width="46" Click="stop_Btn_Click"/>
+            </Grid>
+        </GroupBox>
+        <ListView x:Name="listView" HorizontalAlignment="Left" Height="280" Margin="10,116,0,0" VerticalAlignment="Top" Width="721" Grid.ColumnSpan="2">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="URL" Width="auto"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
